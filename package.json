@@ -1,7 +1,6 @@
 {
-  "name": "node-intro",
+  "name": "intro",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +9,18 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "ejs": "^3.0.2",
     "express": "^4.17.1",
     "request": "^2.88.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pranay-mate/Pranay.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Pranay-mate/Pranay/issues"
+  },
+  "homepage": "https://github.com/Pranay-mate/Pranay#readme",
+  "description": ""
 }

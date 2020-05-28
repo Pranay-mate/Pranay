@@ -1,0 +1,12 @@
+<%- include('partials/header') %>
+    <h1>posts</h1>
+
+
+
+
+<% posts.forEach(function (post){ %>
+  <% var title =posts[0].title; %>
+    <% var para =posts[0].post; %>
+<h1><%= title %></h1>
+<p><%= para %></p>
+<%});%>

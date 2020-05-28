@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>signup</title>
+  </head>
+  <body>
+    <h1><%= kindOfDate%></h1>
+    <ul>
+
+      <% for (let i=0; i<newListItems.length; i++) { %>
+
+          <li><%=  newListItems[i]  %></li>
+
+        <% } %>
+
+    </ul>
+
+    <form action="/" method="post">
+
+
+      <input type="text" name="newItem" placeholder="newItem">
+
+      <button name="submit" type="submit">add</button>
+      </form>
+  </body>
+</html>

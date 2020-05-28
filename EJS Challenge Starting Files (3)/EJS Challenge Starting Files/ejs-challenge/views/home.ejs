@@ -1,0 +1,13 @@
+<%- include('partials/header') %>
+    <h1>home</h1>
+    <%= homeContent %>
+
+
+
+<% posts.forEach(function (post){ %>
+  <% var title =posts[0].title; %>
+    <% var para =posts[0].post; %>
+<h1><%= title %></h1>
+<p><%= para %></p>
+<a href="/posts/title">...</a>
+<%});%>
